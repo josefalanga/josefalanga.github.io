@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "protoware-planet-webgl.data.unityweb",
+"asmCodeUrl": "protoware-planet-webgl.asm.code.unityweb",
+"asmMemoryUrl": "protoware-planet-webgl.asm.memory.unityweb",
+"asmFrameworkUrl": "protoware-planet-webgl.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}

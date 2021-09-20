@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Jose Falanga - Game Developer</title>
+  <link rel="icon"
+    href="assets/images/jose-falanga.jfif"
+    type="image/x-icon" />
+  <link rel="stylesheet"
+    href="assets/css/terminal.min.css" />
+  <link rel="stylesheet"
+    href="assets/css/window.css" />
+  <style>
+    :root {
+      --global-font-size: 1.5vh;
+      --background-color: #161616;
+      --font-color: #dadada;
+      --invert-font-color: #171717;
+      --primary-color: #8be01a;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fakeScreen">
+    <div id="content"></div>
+    <div class="line">><span class="cursor">_</span></div>
+  </div>
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    var page = findGetParameter("page")
+    if (page == null) page = "index"
+    page = page + ".md"
+    fetch(page)
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('content').innerHTML = marked(data);
+      });
+  </script>
+</body>
+
+</html>
