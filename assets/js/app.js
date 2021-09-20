@@ -18,15 +18,12 @@ function loadMarkdown(elementId) {
     fetch(page)
         .then(function (response) {
             if (!response.ok) {
-                throw new Error("Not 2xx response")
+                window.location.href = "404.html"
             } else {
-                response.text()
+                return response.text()
             }
         })
         .then(data => {
             document.getElementById(elementId).innerHTML = marked(data);
-        })
-        .catch(function (err) {
-            window.location.href = "404.html"
         });
 }
