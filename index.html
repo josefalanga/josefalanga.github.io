@@ -32,7 +32,7 @@
   <script>
     var page = findGetParameter("page")
     if (page == null) page = "index"
-    page = page + ".md"
+    page = "pages/" + page + ".md"
     fetch(page)
       .then(response => response.text())
       .then(data => {
