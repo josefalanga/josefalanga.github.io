@@ -5,8 +5,28 @@ function findGetParameter(parameterName) {
         .substr(1)
         .split("&")
         .forEach(function (item) {
-          tmp = item.split("=");
-          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+            tmp = item.split("=");
+            if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
         });
     return result;
+}
+
+function loadMarkdown(elementId) {
+    var page = findGetParameter("page")
+    if (page == null) page = "index"
+    page = "pages/" + page + ".md"
+    fetch(page)
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error("Not 2xx response")
+            } else {
+                response.text()
+            }
+        })
+        .then(data => {
+            document.getElementById(elementId).innerHTML = marked(data);
+        })
+        .catch(function (err) {
+            window.location.href = "404.html"
+        });
 }

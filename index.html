@@ -4,13 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <title>Jose Falanga - Game Developer</title>
-  <link rel="icon"
-    href="assets/images/jose-falanga.jfif"
-    type="image/x-icon" />
-  <link rel="stylesheet"
-    href="assets/css/terminal.min.css" />
-  <link rel="stylesheet"
-    href="assets/css/window.css" />
+  <link rel="icon" href="assets/images/jose-falanga.jfif" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/terminal.min.css" />
+  <link rel="stylesheet" href="assets/css/window.css" />
   <style>
     :root {
       --global-font-size: 1.5vh;
@@ -30,14 +26,7 @@
   <script src="assets/js/marked.min.js"></script>
   <script src="assets/js/app.js"></script>
   <script>
-    var page = findGetParameter("page")
-    if (page == null) page = "index"
-    page = "pages/" + page + ".md"
-    fetch(page)
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('content').innerHTML = marked(data);
-      });
+    loadMarkdown('content')
   </script>
 </body>
 
