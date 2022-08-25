@@ -1,16 +1,14 @@
-__>__ sudo josefalanga --hello
+__>__ sudo man 1 josefalanga
 
-## MAIN
-
-### --name, -n
+## NAME
 
 Jose Falanga
 
-### --ocuppation, -o
+### OCCUPATION
 
 Game Developer
 
-### --job, -j
+### JOB
 
 Currently working at [Etermax](https://etermax.com/) as Technical Lead.
 
@@ -21,6 +19,5 @@ Currently working at [Etermax](https://etermax.com/) as Technical Lead.
 - [Twitter](https://twitter.com/jose_falanga)
 - [LinkedIn](https://www.linkedin.com/in/jose-falanga/)
 
-### --misc, -m
-
-Subject interested in, but not limited to, regular millenial topics: anime, comics, movies, videogames, tabletop games, science, space exploration, anarcho-communism, the proletariat seizing the means of production, existentialist philosophy, human rights, avocado toasts.
+### --contact, -c
+- [e-mail](mailto:jose.falanga@gmail.com)
