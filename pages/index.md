@@ -1,4 +1,4 @@
-# > ./hello.sh -h
+> sudo falanga -h
 
 ## MAIN
 
@@ -12,7 +12,7 @@ Game Developer
 
 ### --job, -j
 
-Currently working at [Etermax](https://etermax.com/) as Software Engineer. Also working on an unanounced project at [Sarlangames](https://sarlangames.com/).
+Currently working at [Etermax](https://etermax.com/) as Technical Lead.
 
 ## OPTIONS
 
