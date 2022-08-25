@@ -1,4 +1,4 @@
-> sudo falanga -h
+__>__ sudo josefalanga --hello
 
 ## MAIN
 
