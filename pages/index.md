@@ -18,6 +18,8 @@ Currently working at [Etermax](https://etermax.com/) as Technical Lead.
 
 [Twitter](https://twitter.com/jose_falanga)
 
+[Mastodon](https://mastodon.gamedev.place/@jose)
+
 [LinkedIn](https://www.linkedin.com/in/jose-falanga/)
 
 #### --contact, -c
