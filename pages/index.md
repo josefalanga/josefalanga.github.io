@@ -22,6 +22,16 @@ Currently working at [Etermax](https://etermax.com/) as Technical Lead.
 
 [LinkedIn](https://www.linkedin.com/in/jose-falanga/)
 
+#### --portfolio, -p
+
+Mostly jam stuff:
+
+[Global Game Jam](https://globalgamejam.org/users/josefalanga)
+
+[Ludum Dare](https://ldjam.com/users/josefalanga/games)
+
+[Game Jolt](https://gamejolt.com/@josefalanga/games)
+
 #### --contact, -c
 
 [e-mail](mailto:jose.falanga@gmail.com)
