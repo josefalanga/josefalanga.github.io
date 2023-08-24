@@ -10,7 +10,7 @@ Game Developer
 
 ## JOB
 
-Currently working at [Etermax](https://etermax.com/) as Technical Lead.
+Currently working at [Mina Game Studios](https://www.linkedin.com/company/mina-game-studios/) on secret stuff 👽
 
 ## OPTIONS
 
