@@ -10,13 +10,11 @@ Game Developer
 
 ## JOB
 
-Currently working at [Mina Game Studios](https://www.linkedin.com/company/mina-game-studios/) on secret stuff 👽
+Currently working at [Trick Game Studios](https://www.trickgs.com/) and other secret stuff 👽
 
 ## OPTIONS
 
 #### --find, -f
-
-[Twitter](https://twitter.com/jose_falanga)
 
 [Mastodon](https://mastodon.gamedev.place/@jose)
 
